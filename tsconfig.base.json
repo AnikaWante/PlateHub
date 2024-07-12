@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@elisa/elisas": ["libs/elisas/src/index.ts"],
+      "@elisa/layers": ["libs/layers/src/index.ts"],
+      "@elisa/researches": ["libs/researches/src/index.ts"],
+      "@elisa/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@elisa/substainces": ["libs/substainces/src/index.ts"],
+      "@elisa/users": ["libs/users/src/index.ts"],
+      "@elisa/wells": ["libs/wells/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
